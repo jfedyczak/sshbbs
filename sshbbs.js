@@ -80,6 +80,9 @@ module.exports = (options = {}, connectionCallback, callback = null) => {
 			client.on('end', () => {
 				// console.log(' -- client disconnected')
 			})
+			client.on('error', (e) => {
+				console.log(e)
+			})
 			client.on('ready', () => {
 				// console.log(' -- client authenticated')
 				client.on('session', (accept, reject) => {
