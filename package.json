@@ -1,4 +1,11 @@
 {
+  "name": "sshbbs",
+  "version": "1.0.0",
+  "description": "Blessed over SSH simple server",
+  "main": "sshbbs.js",
+  "repository": "git@github.com:jfedyczak/sshbbs.git",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "blessed": "^0.1.81",
     "ssh2": "^0.5.5"
