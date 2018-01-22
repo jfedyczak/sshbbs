@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "blessed": "^0.1.81",
     "ssh2": "^0.5.5"
   }
 }
